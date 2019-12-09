@@ -1,0 +1,8 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+df = pd.read_csv('tb_tidy.csv');
+fig, ax = plt.subplots()
+
+for c, df_ in df.groupby(['sex']):
+    ax.scatter(df_['year'], df_['new_sp_3544'], label=c)
+ax.legend()

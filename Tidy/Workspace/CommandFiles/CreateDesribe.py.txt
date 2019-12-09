@@ -1,0 +1,5 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+df = pd.read_csv('tb_tidy.csv');
+describe =  df.describe();
+describe.to_csv(r'tb_describe.csv');

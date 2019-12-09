@@ -1,0 +1,2 @@
+originalData/tb.csv - plik Ÿród³owy z danymi  pobrany z repozytorium 
+AnalysisData/tb_tidy.csv - plik z danymi w formacie tidy (powsta³ z przetworzenia pliku tb.csv)
