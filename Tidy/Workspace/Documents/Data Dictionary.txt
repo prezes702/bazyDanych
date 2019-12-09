@@ -1,0 +1,14 @@
+Plik tb_tidy.csv:
+-iso2: kraj pochodzenia zarażonych według kodu iso2
+-year: rok diagnozy zarażenia gruźlicą
+-sex: płeć zarażonego
+-new_sp_xxxx: liczba przypadków zarażenia gruźlicą typu xxx
+
+Liczba pól z wartościami liczby zarażonych: 35109
+Liczba pól bez wartości: 12021
+
+Plik tb_describe.csv zawiera podstawowe podsumowanie statyskyk: średnią, odchylenie standardowe,
+medianę, minimum, maximum, 25% i 75% pozyzcję w kolejności
+
+Plik CommandFiles/plotGroupBySex.py genereruje wykres przestawiający częstość wystpępowania danego typu 
+gruźlicy w danym roku, pogrupowaną po płci zarażonego
